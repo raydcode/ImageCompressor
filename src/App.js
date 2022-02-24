@@ -1,9 +1,13 @@
-import './App.css';
+import React from 'react';
+
+import ImageCompressor from './components/image-compressor';
 
 function App() {
-  return <div className="App">
-    
-  </div>;
+  return (
+    <div className="App">
+      <ImageCompressor />
+    </div>
+  );
 }
 
 export default App;
